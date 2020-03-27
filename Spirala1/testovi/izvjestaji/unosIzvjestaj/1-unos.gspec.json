@@ -1,0 +1,213 @@
+{
+  "testId" : "1-unos.gspec",
+  "name" : "unos.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  unos.gspec --url http://localhost/unos.html --size 1024x768 --htmlreport unosIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: unos.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573595085886,
+          "sections" : [ {
+            "name" : "Body section",
+            "place" : {
+              "filePath" : "unos.gspec",
+              "lineNumber" : 13
+            },
+            "objects" : [ {
+              "name" : "logo1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "95px"
+                } ],
+                "highlight" : [ "logo1", "sadrzaj1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "inside slika",
+                "meta" : [ ],
+                "highlight" : [ "logo1", "slika" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "centered horizontally inside meni1",
+                "highlight" : [ "logo1", "meni1" ]
+              } ]
+            }, {
+              "name" : "meni1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "22px"
+                } ],
+                "highlight" : [ "meni1", "sadrzaj1" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Form section",
+            "place" : {
+              "filePath" : "unos.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "labela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "inside forma1",
+                "meta" : [ ],
+                "highlight" : [ "labela", "forma1" ]
+              } ]
+            }, {
+              "name" : "input1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside  forma1 >50px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "input1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "> 50px",
+                  "realDistance" : "85px"
+                } ],
+                "highlight" : [ "input1", "forma1" ]
+              } ]
+            }, {
+              "name" : "input2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside  forma1  >50px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "input2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "> 50px",
+                  "realDistance" : "129px"
+                } ],
+                "highlight" : [ "input2", "forma1" ]
+              } ]
+            }, {
+              "name" : "input3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside  forma1  >50px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "input3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "forma1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "> 50px",
+                  "realDistance" : "261px"
+                } ],
+                "highlight" : [ "input3", "forma1" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "slika" : {
+              "area" : [ 436, 1, 120, 100 ]
+            },
+            "meni1" : {
+              "area" : [ 0, 50, 991, 120 ]
+            },
+            "logo1" : {
+              "area" : [ 435, 5, 120, 92 ]
+            },
+            "input3" : {
+              "area" : [ 400, 583, 150, 19 ]
+            },
+            "input2" : {
+              "area" : [ 554, 451, 300, 19 ]
+            },
+            "input1" : {
+              "area" : [ 554, 407, 300, 19 ]
+            },
+            "forma1" : {
+              "area" : [ 400, 322, 694, 633 ]
+            },
+            "sadrzaj1" : {
+              "area" : [ 0, 192, 991, 663 ]
+            },
+            "labela" : {
+              "area" : [ 400, 407, 150, 18 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573595063938,
+        "type" : "node"
+      } ],
+      "time" : 1573595029197,
+      "type" : "node"
+    } ]
+  }
+}

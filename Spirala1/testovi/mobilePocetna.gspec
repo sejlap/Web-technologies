@@ -1,0 +1,12 @@
+@objects
+    kolona1 .kolona
+    red1 .red
+    redprvi .red#prvi
+
+= Body section =
+
+  kolona1:
+   @on mobile
+      width  80% of screen/width
+      width  80% of screen/width
+      

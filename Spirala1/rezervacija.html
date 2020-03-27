@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Rezervacija </title>
+            <link rel="stylesheet" href="rezervacija.css">
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <div class="meni">
+                <a href="pocetna.html"> Početna</a> 
+                <a href="sale.html"> Sale</a> 
+                <a href="unos.html"> Unos</a> 
+                <a href="rezervacija.html" id="act"> Rezervacije</a> 
+                <a href="url"> Osobe</a> 
+            </div>
+            <div class="logo">
+                <img  class="img" src="download.jpg" alt="logo">
+            </div>
+                <div class="sadrzaj"> 
+                    <div class="redprvi">
+                        <select name="sale" id="sal" >
+                            <option value="va1">VA1</option>
+                            <option value="va2">VA2</option>
+                            <option value="ma">MA</option>
+                            <option value="ee1">EE1</option>
+                            <option value="ee1">EE2</option>
+                        </select>
+                        <br>  <br>
+                        <label> Da li je rezervacija periodična?</label>
+                        <br>  <br>
+                        <input type="checkbox" name="yes" value="Yes"> Da
+                        <input type="checkbox" name="no" value="No"> Ne
+                        <br>  <br>
+                        <input type="time"  id="time" name="pocetak" required>
+                        <input type="time"  id="time2" name="kraj" required>
+                    </div>
+                    <div class="kalendar">
+                    <label id="naslov"> Novembar</label>
+                    <div class="red">
+                        <div class="kolona1">PON</div>
+                        <div class="kolona1">UTO</div>
+                        <div class="kolona1">SRI</div>
+                        <div class="kolona1">ČET</div>
+                        <div class="kolona1">PET</div>
+                        <div class="kolona1">SUB</div>
+                        <div class="kolona1">NED</div>
+                    </div>
+                    <div class="red">
+                        <div class="kolonabez"></div>
+                        <div class="kolonabez"></div>
+                        <div class="kolonabez"></div>
+                        <div class="kolonabez"></div>
+                        <div class="slobodna">1 <hr> </div>
+                        <div class="slobodna">2 <hr> </div>
+                        <div class="slobodna"> 3 <hr> </div>
+                    </div>
+                    <div class="red">
+                        <div class="slobodna" > 4<hr>  </div>
+                        <div class="zauzeta">5 <hr>  </div>
+                        <div class="slobodna">6<hr>  </div>
+                        <div class="slobodna">7 <hr>   </div>
+                        <div class="slobodna">8 <hr>  </div>
+                        <div class="slobodna">9 <hr>   </div>
+                        <div class="slobodna">10 <hr>   </div>
+                    </div>
+                    <div class="red">
+                        <div class="slobodna">11<hr>  </div>
+                        <div class="zauzeta">12<hr>  </div>
+                        <div class="slobodna">13<hr>   </div>
+                        <div class="slobodna">14 <hr>  </div>
+                        <div class="slobodna">15 <hr>  </div>
+                        <div class="slobodna">16 <hr>   </div>
+                        <div class="slobodna">17 <hr>   </div>
+                    </div>
+                        <div class="red">
+                        <div class="slobodna">18 <hr>  </div>
+                        <div class="zauzeta">19 <hr>   </div>
+                        <div class="slobodna">20 <hr>  </div>
+                        <div class="slobodna">21 <hr>  </div>
+                        <div class="slobodna">22 <hr>  </div>
+                        <div class="slobodna">23 <hr>  </div>
+                        <div class="slobodna">24 <hr>   </div>
+                    </div>
+                    <div class="red">
+                        <div class="slobodna"> 25 <hr> </div>
+                        <div class="zauzeta"> 26 <hr>   </div>
+                        <div class="slobodna">27 <hr>  </div>
+                        <div class="slobodna">28 <hr>  </div>
+                        <div class="slobodna">29 <hr>  </div>
+                        <div class="slobodna">30 <hr>  </div>
+                </div>
+            </div>
+            <button type="button" class="button" id="my">Prethodni</button>
+            <button type="button" class="button">Sljedeći</button>
+            </div>
+        </body>
+    </html>

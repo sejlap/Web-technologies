@@ -1,0 +1,139 @@
+{
+  "testId" : "1-pocetna.gspec",
+  "name" : "pocetna.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  pocetna.gspec --url http://localhost/pocetna.html --size 1024x768 --htmlreport pocetnaIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: pocetna.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573596355358,
+          "sections" : [ {
+            "name" : "Body section",
+            "place" : {
+              "filePath" : "pocetna.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "logo1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "pocetna.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "85px"
+                } ],
+                "highlight" : [ "logo1", "sadrzaj1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "pocetna.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "centered horizontally inside meni1",
+                "highlight" : [ "logo1", "meni1" ]
+              } ]
+            }, {
+              "name" : "meni1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "pocetna.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "12px"
+                } ],
+                "highlight" : [ "meni1", "sadrzaj1" ]
+              } ]
+            }, {
+              "name" : "kolona1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "pocetna.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside red1",
+                "meta" : [ ],
+                "highlight" : [ "kolona1", "red1" ]
+              } ]
+            }, {
+              "name" : "red1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "pocetna.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "width  99% of screen/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "red1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "red1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "99% [1310px]",
+                  "realDistance" : "99% [1316px]"
+                } ],
+                "highlight" : [ "red1" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni1" : {
+              "area" : [ 8, 49, 1305, 120 ]
+            },
+            "logo1" : {
+              "area" : [ 600, 4, 120, 92 ]
+            },
+            "red1" : {
+              "area" : [ 8, 232, 1316, 700 ]
+            },
+            "sadrzaj1" : {
+              "area" : [ 8, 181, 1305, 31 ]
+            },
+            "kolona1" : {
+              "area" : [ 13, 237, 509, 345 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573596331825,
+        "type" : "node"
+      } ],
+      "time" : 1573596295742,
+      "type" : "node"
+    } ]
+  }
+}

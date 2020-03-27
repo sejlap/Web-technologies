@@ -1,0 +1,36 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1  .sadrzaj
+    tabela .tabelaSala
+    headersprat .headerSprat
+    zauzeta .zauzetaSala
+    slobodna .slobodnaSala
+    sala .sala
+    obicna .obicna
+    headerRedni  .headerRedni
+    
+
+= Body section =
+    logo1:
+        above sadrzaj1
+
+    meni1:
+       above sadrzaj1
+    
+    tabela:
+        height > 500px
+        width > 500px
+    
+    headersprat:
+        inside tabela
+        above  zauzeta
+        width >100px
+    
+    headerRedni:
+        inside tabela
+        width >150px
+
+    
+    tabela:
+        contains headersprat, zauzeta, slobodna, sala
