@@ -1,0 +1,51 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1  .sadrzaj
+    kalendar  .kalendar
+    selectmenu #sal
+    slobodna .slobodna
+    zauzeta .zauzeta
+    kolona1 .kolona1
+    red1 .red
+    kalendar .kalendar
+    naslov #naslov
+    redprvi .redprvi
+    button .button
+    svakidrugired .red:nth-of-type(2n)
+    petired    .red:nth-of-type(5)
+
+= Body section =
+
+    svakidrugired: 
+        @on mobile
+            absent 
+
+    petired: 
+        @on mobile
+            absent 
+
+    red1:
+        @on mobile
+            width >200px
+    
+
+    kalendar:
+        @on mobile
+            width 200px
+    
+    sadrzaj1:
+        @on mobile
+            width >500px
+            height >500px
+        
+    kalendar:
+        @on mobile
+            contains red1, slobodna, zauzeta
+    
+    button:
+        @on mobile
+            below kalendar
+
+
+

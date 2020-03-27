@@ -1,0 +1,23 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1 .sadrzaj
+    slika .img
+    kolona1 .kolona
+    red1 .red
+    redprvi .red#prvi
+
+= Body section =
+    logo1:
+        above sadrzaj1
+        centered horizontally inside meni1
+
+    meni1:
+       above sadrzaj1
+    
+    kolona1:
+        inside red1 
+
+    red1:
+      width  99% of screen/width
+     

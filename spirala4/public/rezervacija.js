@@ -1,0 +1,2 @@
+Pozivi.ucitajUKalendar();
+Pozivi.prikaziOsoblje();

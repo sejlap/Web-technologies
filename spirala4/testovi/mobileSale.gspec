@@ -1,0 +1,39 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1  .sadrzaj
+    tabela .tabelaSala
+    headersprat .headerSprat
+    headerRedni  .headerRedni
+    zauzeta .zauzetaSala
+    slobodna .slobodnaSala
+    sala .sala
+  
+
+= Body section =
+
+    headerRedni:
+        @on mobile
+           absent
+
+    
+    headersprat:
+        @on mobile
+            absent
+            
+    sala:
+        @on mobile
+            width 50px
+            height 50px
+
+
+    slobodna:
+        @on mobile
+            width 50px
+            height 50px 
+
+
+    zauzeta:
+        @on mobile
+            width 50px
+            height 50px

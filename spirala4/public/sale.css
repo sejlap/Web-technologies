@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: rgba(238, 192, 192, 0.918);
+     margin-top: 50px;
+}
+.meni{
+    background-color: rgb(194, 223, 247);
+    box-sizing: border-box;
+    border: 2px solid rgb(7, 85, 26);
+    border-bottom: 2px solid rgb(79, 243, 2);
+    border-right: 2px solid  rgb(79, 243, 2);
+    width: 1000px;
+    height: 120px;
+    padding-top: 65px;
+    padding-left: 200px;
+    margin: auto;
+}
+a{
+    display: inline;
+    font-size: 18pt;
+    margin-left: 40px;
+    color: black; 
+}
+a#act{
+    text-decoration: none;
+}
+.logo {   
+    transform: translateY(-165px);
+    box-sizing: border-box;
+    width: 120px;
+    height: 50px;
+    border: 2px solid orangered; 
+    border-width: 46px; 
+    margin: auto;
+}
+.logo img{
+    position: absolute;
+    width: 120px;
+    height: 95px;
+    top: 0px;
+    left: -46px;
+    margin:auto;
+    transform: translateY(-47px);
+}
+
+.sadrzaj{
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(194, 223, 247);
+    padding-top: 30px;
+    box-sizing: border-box;
+    border: 3px solid  rgb(29, 136, 55);
+    border-right: 2px solid  rgb(79, 243, 2);
+    margin: auto;
+    transform: translateY(-80px);
+ }
+.tabelaSala{
+    height: 800px;
+    width: 700px;
+    margin:auto;
+}
+.headerSprat{
+    box-sizing: border-box;
+    background-color: grey;
+    width:100px;
+    font-size: 16pt;
+}
+.headerRedni{
+    background-color: rgb(194, 186, 186);
+    width: 150px;
+    font-size: 16pt;
+}
+table{
+    box-sizing: border-box;
+    height: 80%;
+    width: 80%;
+    border-collapse: collapse;
+    border-style: hidden;
+    padding-top: 30px;
+    margin: auto;
+}
+table td, table th {
+    border: outset;
+}
+.slobodnaSala{
+    background-color: rgb(29, 221, 29);
+    text-align: left;
+    vertical-align: top;
+    font-size: 16pt;
+}
+.zauzetaSala{
+    background-color: orangered;
+    text-align: left;
+    vertical-align: top;
+    font-size: 16pt;
+}
+.sala{
+    background-color: white;
+    text-align: left;
+    vertical-align: top;
+    font-size: 16pt;
+}
+.obicna{
+    background-color: white;
+    text-align: left;
+    vertical-align: top;
+    font-size: 16pt;
+    background-color: rgb(112, 167, 212);
+}
+.kancelarija{   
+    background-color: grey;
+    text-align: left;
+    vertical-align: top;
+    font-size: 16pt;
+}
+
+@media only screen and (max-width: 600px) {
+  
+     .headerSprat{
+         display: none;
+     }
+
+     .headerRedni{
+         display: none;
+     }
+     .sala, .slobodnaSala, .zauzetaSala, .kancelarija, .obicna{
+         width: 40px;
+         height: 20px;
+         font-size: 5pt;
+     }
+     .tabelaSala #x{
+        border: none;
+    }
+     table{
+         width: 200px;
+         height: 50px;
+         margin-left: 150px;
+        
+     }
+     .sadrzaj{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        transform: translateY(-30px);
+     }
+     .meni{
+        width: 600px;
+        height: 80px;
+        margin: auto;
+        padding-top: 27px;
+     }
+     a{
+        display: list-item;
+        list-style: none;
+        font-size: 6pt;
+        margin: auto;
+     }
+    .logo {   
+        transform: translateY(-103px);
+        box-sizing: border-box;
+        width: 70px;
+        height: 45px;
+        border: 2px solid orangered; 
+        border-width: 25px;
+        margin: auto;
+    }
+    .logo img{
+        position: absolute;
+        width: 70px;
+        height: 51px;
+        top: 0px;
+        left: -25px;
+        margin:auto;
+        transform: translateY(-26px);
+    }
+   
+  
+}

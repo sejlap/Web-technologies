@@ -1,0 +1,7 @@
+Testovi za spiralu 4 su u folderu test, tu se nalaze testovi za 3 rute GET /osoblje, GET /sala i GET /ispis( tu su sva zauzeca) i get terimini sve rezervacije
+
+Ukoliko dodje greska "Cannot add or update a child row...." potrebno je vise puta pozvati node index.js i ustabiliti bazu php my admin, nakon toga greske nema, znaci problem je u bazi
+
+Svih 11 testova prolaze ukoliko se baza ustabili tj. ukoliko je prva osoba Neko Nekic, a posljednja Test Test, kada je to napravljeno, onda svih 11 testova prolaze
+
+Dodan u bazi pogledati tabelu termin red je dodan.

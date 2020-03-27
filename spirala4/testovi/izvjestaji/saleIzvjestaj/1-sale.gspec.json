@@ -1,0 +1,243 @@
+{
+  "testId" : "1-sale.gspec",
+  "name" : "sale.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  sale.gspec --url http://localhost/sale.html --size 1024x768 --htmlreport saleIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: sale.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573595571395,
+          "sections" : [ {
+            "name" : "Body section",
+            "place" : {
+              "filePath" : "sale.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "logo1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "85px"
+                } ],
+                "highlight" : [ "logo1", "sadrzaj1" ]
+              } ]
+            }, {
+              "name" : "meni1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "above sadrzaj1",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj1",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "12px"
+                } ],
+                "highlight" : [ "meni1", "sadrzaj1" ]
+              } ]
+            }, {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "height > 500px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "tabela",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "> 500px",
+                  "realDistance" : "800px"
+                } ],
+                "highlight" : [ "tabela" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width > 500px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "tabela",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "> 500px",
+                  "realDistance" : "700px"
+                } ],
+                "highlight" : [ "tabela" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "contains headersprat, zauzeta, slobodna, sala",
+                "highlight" : [ "tabela", "headersprat", "zauzeta", "slobodna", "sala" ]
+              } ]
+            }, {
+              "name" : "headersprat",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "headersprat", "tabela" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "above  zauzeta",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "headersprat",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "zauzeta",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "71px"
+                } ],
+                "highlight" : [ "headersprat", "zauzeta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "width >100px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "headersprat",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "headersprat",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "> 100px",
+                  "realDistance" : "539px"
+                } ],
+                "highlight" : [ "headersprat" ]
+              } ]
+            }, {
+              "name" : "headerRedni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "headerRedni", "tabela" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "width >150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "headerRedni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "headerRedni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "> 150px",
+                  "realDistance" : "161px"
+                } ],
+                "highlight" : [ "headerRedni" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni1" : {
+              "area" : [ 0, 50, 1000, 120 ]
+            },
+            "tabela" : {
+              "area" : [ 150, 215, 700, 800 ]
+            },
+            "logo1" : {
+              "area" : [ 435, 5, 120, 92 ]
+            },
+            "sala" : {
+              "area" : [ 526, 355, 108, 71 ]
+            },
+            "headersprat" : {
+              "area" : [ 311, 215, 539, 69 ]
+            },
+            "headerRedni" : {
+              "area" : [ 150, 284, 161, 71 ]
+            },
+            "sadrzaj1" : {
+              "area" : [ 0, 182, 1000, 900 ]
+            },
+            "zauzeta" : {
+              "area" : [ 418, 355, 108, 71 ]
+            },
+            "slobodna" : {
+              "area" : [ 311, 355, 107, 71 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573595552451,
+        "type" : "node"
+      } ],
+      "time" : 1573595515654,
+      "type" : "node"
+    } ]
+  }
+}
