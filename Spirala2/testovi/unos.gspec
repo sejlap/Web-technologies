@@ -1,0 +1,40 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1  .sadrzaj
+    forma1 .forma
+    input1 .forma input[type='text']
+    input2 .forma input[type='number']
+    input3 .forma input[type='submit']
+    labela .lab
+    slika .img
+    
+
+= Body section =
+    logo1:
+        above sadrzaj1
+        inside slika 
+        centered horizontally inside meni1
+
+    meni1:
+       above sadrzaj1
+       
+
+= Form section =
+    labela:
+        inside forma1
+    
+    input1: 
+         inside  forma1 >50px top
+
+
+    input2: 
+         inside  forma1  >50px top
+
+
+    input3: 
+         inside  forma1  >50px top
+    
+
+   
+       
