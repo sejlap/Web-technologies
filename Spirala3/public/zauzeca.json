@@ -1,0 +1,4 @@
+{
+    "periodicna": [ {"dan": 1, "semestar": "zimski", "pocetak": "11:00", "kraj": "14:00", "naziv": "MA", "predavac": "Zejko Juric"}, {"dan": 1, "semestar": "zimski", "pocetak": "10:00", "kraj": "12:00", "naziv": "MA", "predavac": "Zejko Juric"}],
+    "vanredna": [ { "datum": "12.12.2019", "semestar": "zimski", "pocetak": "10:00", "kraj": "12:00", "naziv": "MA", "predavac": "Samir Ribic"}, { "datum": "12.12.2019", "semestar": "zimski", "pocetak": "11:00", "kraj": "12:00", "naziv": "MA", "predavac": "Samir Ribic"}]
+}

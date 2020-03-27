@@ -1,0 +1,47 @@
+@objects
+    logo1 .logo
+    meni1 .meni
+    sadrzaj1  .sadrzaj
+    kalendar  .kalendar
+    selectmenu #sal
+    slobodna .slobodna
+    zauzeta .zauzeta
+    red1 .red
+    kalendar .kalendar
+    naslov #naslov
+    redprvi .redprvi
+    button .button
+
+
+= Body section =
+    logo1:
+        above sadrzaj1
+
+    meni1:
+       above sadrzaj1
+
+    sadrzaj1: 
+       contains redprvi, kalendar
+
+
+    slobodna:
+       inside sadrzaj1
+       width > 50px
+       height > 40x
+    
+
+    zauzeta:
+       inside sadrzaj1
+       width  > 50px
+       height > 40x
+
+
+    kalendar: 
+       inside sadrzaj1
+     
+
+    naslov:
+        near red1 1px top
+
+    button:
+        below kalendar

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: rgba(238, 192, 192, 0.918);
+     margin-top: 50px;
+}
+.meni{
+    background-color: rgb(194, 223, 247);
+    box-sizing: border-box;
+    border: 2px solid rgb(7, 85, 26);
+    border-bottom: 2px solid rgb(79, 243, 2);
+    border-right: 2px solid  rgb(79, 243, 2);
+    width: 2400px;
+    height: 120px;
+    padding-top: 65px;
+    padding-left: 900px;
+    margin: auto;
+}
+a{
+    display: inline;
+    font-size: 18pt;
+    margin-left: 40px;
+    color: black; 
+}
+a#act{
+    text-decoration: none;
+}
+.logo {   
+    transform: translateY(-165px);
+    box-sizing: border-box;
+    width: 120px;
+    height: 50px;
+    border: 2px solid orangered; 
+    border-width: 46px; 
+    margin: auto;
+}
+.logo img{
+    position: absolute;
+    width: 120px;
+    height: 95px;
+    top: 0px;
+    left: -46px;
+    margin:auto;
+    transform: translateY(-47px);
+}
+
+
+ .sadrzaj{
+    width: 2400px;
+    height: 900px;
+    background-color: rgb(194, 223, 247);
+    padding-top: 30px;
+    box-sizing: border-box;
+    border: 3px solid  rgb(29, 136, 55);
+    border-right: 2px solid  rgb(79, 243, 2);
+    margin: auto;
+    transform: translateY(-80px);
+ }
+.red#prvi{
+    margin-top: 20px;
+}
+.red{
+	padding: 5px;
+	width:100%;
+	float:left;
+    min-height: 1px;
+    
+}
+.kolona{	
+    clear: both;
+	margin-right: 1%;
+	display: inline; 
+    min-height: 20px;
+    padding: 30px;
+}
+button{
+    background-color: rgb(195, 195, 236);
+    color: black;
+    border: 1px solid rgb(35, 35, 134);
+    margin-top: 20px;
+    padding-left: 0px;
+    width: 400px;
+    height: 50px;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 5px;
+    margin-left: 1100px;
+    margin-top: 100px;
+
+  }
+  #prev{
+      margin-left: 100px;
+  }
+  #next{
+    margin-right: 300px;
+  }
+  img{
+      width:700px;
+      height:600px;
+  }
+@media only screen and (max-width: 600px) {
+    .kolona{
+        width:80%;
+        height: 80%;
+    }
+    .meni{
+        width: 500px;
+        height: 80px;
+        margin: auto;
+        padding-top: 27px;
+    }
+    a{
+        display: list-item;
+        list-style: none;
+        font-size: 6pt;
+        margin: auto;
+    }
+    .logo {   
+        transform: translateY(-104px);
+        box-sizing: border-box;
+        width: 70px;
+        height: 45px;
+        border: 2px solid orangered; 
+        border-width: 25px;
+        margin: auto;
+    }
+    .logo img{
+        position: absolute;
+        width: 70px;
+        height: 51px;
+        top: 0px;
+        left: -25px;
+        margin:auto;
+        transform: translateY(-26px);
+    }
+}
+

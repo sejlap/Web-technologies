@@ -1,0 +1,27 @@
+{
+  "testId" : "1-mobilesale.gspec",
+  "name" : "mobileSale.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobileSale.gspec --url http://localhost/sale.html --size 1024x768 --htmlreport mobileSaleIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobileSale.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573595723361,
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573595718207,
+        "type" : "node"
+      } ],
+      "time" : 1573595690935,
+      "type" : "node"
+    } ]
+  }
+}

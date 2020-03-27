@@ -1,0 +1,27 @@
+{
+  "testId" : "1-mobilerezervacija.gspec",
+  "name" : "mobileRezervacija.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobileRezervacija.gspec --url http://localhost/rezervacija.html --size 1024x768 --htmlreport mobileRezervacijaIzvjestaj",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobileRezervacija.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573595886518,
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573595881848,
+        "type" : "node"
+      } ],
+      "time" : 1573595854287,
+      "type" : "node"
+    } ]
+  }
+}
